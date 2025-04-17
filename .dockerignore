@@ -1,0 +1,12 @@
+.git
+.gitignore
+.vscode
+.idea
+node_modules
+vendor
+*.log
+.env
+docker-compose.override.yml
+README.md
+uploads/*
+!uploads/.gitkeep 

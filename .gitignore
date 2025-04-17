@@ -1,0 +1,74 @@
+# Environment and configuration files
+.env
+.env.*
+config.php
+docker-compose.override.yml
+
+# Database files
+*.sql
+*.sqlite
+*.sqlite3
+
+# Logs and debug files
+*.log
+error_log
+debug.log
+php_errors.log
+
+# Cache and temporary files
+*.cache
+*.tmp
+*.temp
+/cache/
+/tmp/
+/temp/
+
+# IDE and editor files
+.idea/
+.vscode/
+*.swp
+*.swo
+.DS_Store
+Thumbs.db
+
+# Composer files (except composer.json and composer.lock)
+/vendor/
+composer.phar
+
+# Node.js files (if you use npm)
+/node_modules/
+package-lock.json
+
+# Build and deployment files
+/build/
+/dist/
+/deploy/
+
+# Docker related
+.docker/
+docker-compose.override.yml
+
+# Session files
+/sessions/
+*.sess
+
+# Uploaded files
+/uploads/
+*.jpg
+*.jpeg
+*.png
+*.gif
+*.pdf
+*.doc
+*.docx
+*.xls
+*.xlsx
+
+# Backup files
+*.bak
+*.backup
+*~
+
+# System files
+.DS_Store
+Thumbs.db 
